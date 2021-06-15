@@ -135,11 +135,17 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+/* Mobile  */
+
+@media screen and (max-width: 600px) {
+    body {
+        width: auto;
+        height: auto;
+        display: block;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
 }
